@@ -10,7 +10,7 @@
 
 const REPOS = [
   { repo: 'shtanga0x/polymarket_watch',      ref: 'main'   },
-  { repo: 'shtanga0x/tier1-traders-watch',   ref: 'master' },
+  { repo: 'shtanga0x/polymarket_core',        ref: 'master' },
 ];
 
 async function triggerWorkflow(repo, ref, token) {
